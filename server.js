@@ -43,11 +43,11 @@ server.listen(3001, () => {
   console.log("SERVER RUNNING");
 });
 
-// app.get("/", (req, res) => {
-//   res.send("Hello World - NodeJS is running on Qoddi!");
-// });
+app.get("/", (req, res) => {
+  res.send("Hello World - NodeJS is running on Qoddi!");
+});
 
-// app.listen(PORT, HOST);
-// console.log(`Running on http://${HOST}:${PORT}`);
+app.listen(PORT, HOST);
+console.log(`Running on http://${HOST}:${PORT}`);
 
 
